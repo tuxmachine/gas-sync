@@ -1,0 +1,24 @@
+{
+  "engines": {
+    "node": ">4"
+  },
+  "bin": {
+    "gas": "./index.js"
+  },
+  "name": "gas-sync",
+  "version": "0.0.1",
+  "description": "A tool to syncronise a GoogleAppScript file with local filesystem for easy editing",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Rick Dutour Geerling <info@rickdg.nl>",
+  "license": "MIT",
+  "dependencies": {
+    "google-auth-library": "^0.9.8",
+    "googleapis": "^12.0.0",
+    "gulp": "^3.9.1",
+    "lodash": "^4.14.0",
+    "minimatch": "^3.0.2",
+    "minimist": "^1.2.0",
+    "promise": "^7.1.1"
+  }
+}
