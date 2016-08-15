@@ -80,7 +80,8 @@ switch(argv._[0]) {
 Commands:
   authorise
         Generate OAuth tokens for access to your Drive account. You can
-        provide an alias if you need to use multiple accounts
+        provide an alias by appending ' -u [alias]' if you need to use 
+        multiple accounts
   init
         Initialize a local folder for syncing with a GoogleAppsScript
   push
@@ -100,7 +101,7 @@ Commands:
 Options:
   -u [alias]
         The user whose OAuth tokens should be used for setting up
-        remote. If left empty, it'll use the first one available.
+        remote. If left empty, it'll use 'default'
   -f
         Force generating a new authorisation token or overwriting
         changes

@@ -1,12 +1,12 @@
 {
   "engines": {
-    "node": ">4"
+    "node": ">4.0"
   },
   "bin": {
     "gas": "./index.js"
   },
   "name": "gas-sync",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A tool to syncronise a GoogleAppScript file with local filesystem for easy editing",
   "main": "index.js",
   "scripts": {},
