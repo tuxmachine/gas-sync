@@ -83,8 +83,8 @@ Options:
 If I (or you) have any spare time, these are some features that would be nice to add
 
 * Prevent accidentally overwriting local/remote changes - Possibly show a diff before push/pull'ing
+* Default to first remote if we've got only 1 remote
 * Ability to execute GAS function using the Execution API
-* Tweak the default eslintrc to improve compatibility with GAS editor
 
 # Disclaimer
 
